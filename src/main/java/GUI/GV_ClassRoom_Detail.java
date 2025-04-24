@@ -47,6 +47,8 @@ public class GV_ClassRoom_Detail extends JPanel {
         
         loadBKT();
         loadData();
+        thongKeCard3.setVisible(false);
+        button3.setVisible(false);
         
     }
     public void loadData(){

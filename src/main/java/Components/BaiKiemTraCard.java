@@ -100,6 +100,7 @@ public class BaiKiemTraCard extends JPanel {
             );
             
         }
+
     }
 
     private Map<TaiKhoan, Float> dsSVLamBaiKiemTra;
@@ -1044,7 +1045,7 @@ public class BaiKiemTraCard extends JPanel {
         }
 
         chart1.clearData();
-        chart1.addLegend("Số lượng sinh viên", Color.decode("#3a8a7d"));
+        chart1.addLegend("Số điểm sinh viên", Color.decode("#3a8a7d"));
         for (int i = 0; i < thongKeDiem.length; i++) {
             String nhan = String.valueOf(i + 1);
             chart1.addData(new ModelChart(nhan, new double[] { thongKeDiem[i] }));
